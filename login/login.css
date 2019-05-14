@@ -1,0 +1,300 @@
+body{
+	width: 100%;
+	background-image: url("../img/tokyo.jpg");
+}
+
+/*head*/
+
+.head {
+    /*position: fixed;*/
+    display: flex;
+    width: 100%;
+    background-color: white;
+    opacity: 1.0;
+    z-index: 1800;
+    height: 63px;
+}
+
+.head img {
+    margin-top: 10px;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.userlogin {
+    text-align: center;
+    color: white;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 6rem;
+    background-color: rgb(240, 77, 77);
+    height: 1.8rem;
+    border-radius: 30px;
+}
+
+.userlogin:hover {
+    background-color: rgb(250, 19, 19);
+}
+
+.head ul {
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+    margin-top: -1rem;
+    margin-left: 32rem;
+}
+
+.head li {
+   margin: 2rem 2rem -1rem 0;
+   padding: 0.3rem;
+   height: 25px;
+   background-color:rgb(240, 77, 77);
+   border-radius: 40px;
+}
+
+.head li:hover {
+    background-color: rgb(253, 82, 82);
+}
+
+.head a {
+	color: white;
+	text-decoration:none;
+}
+
+/*popup*/
+
+#popup {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup:target,
+.popup__content {
+    opacity: 1;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popupcontent {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 35%;
+    background-color: white;
+    display: table;
+    opacity: 0;
+    transform: translate(-50%, -50%), scale(.25);
+    transition: all .1s .2s;
+    margin-top: -2rem;
+}
+
+.popupcontent h2 {
+    color: rgb(240, 77, 77);
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+}
+
+.popup__close {
+    float: right;
+    margin-top: 10px;
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(240, 77, 77);
+}
+
+.popup__close:visited {
+    color: rgb(32, 32, 32);
+    background-color: white;
+    position: absolute;
+    top: 2.5rem;
+    font-size: 6rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    line-height: 1;
+}
+
+.pop__close:hover {
+    color: grey;
+}
+
+.language ul {
+    display: inline-flex;
+    display: flex;
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+    list-style: none;
+}
+
+.language li {
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.language a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(240, 77, 77);
+}
+
+.language img {
+    margin-left: 1rem;
+}
+
+/*login to connect*/
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(131, 130, 130);
+	text-align: center;
+	margin-bottom: 3rem;
+	color: black;
+	font-size: 30px;
+}
+
+/*form*/
+
+.form{
+	margin: 0 auto;
+	width: 40%;
+	background-color: #ffffff;
+	height: 36rem;
+}
+
+
+
+.forminside {
+	font-size: 20px;
+	margin: -2rem 3rem 3rem 5rem;
+	width: 20rem;
+}
+
+
+.facebook input[type=submit] {
+	-webkit-appearance: button;
+	display: inline-block;
+	height: 30px;
+	width: 300px;
+	margin: 30px 70px 0px 20px; 
+	font-size: 20px;
+	background-color: rgb(59, 89, 152);
+	color: white;
+	box-shadow: 0 1px 0 1px;
+}
+
+.facebook input[type=submit]:focus {
+	outline: none;
+	opacity: 0.9;
+}
+
+
+
+.facebook input[type=submit]:hover {
+	opacity: 0.9
+}
+
+
+
+.or {
+	text-align: center;
+}
+
+.email {
+	margin: 1rem 1rem 20px 1rem;
+}
+
+.form input[type="email"]{
+	border-radius: 2px;
+	margin: 0 auto;
+	height: 20px;
+	width: 300px;
+	padding: 8px;
+}
+
+.form input[type="email"]:focus {
+	outline: none;
+    border: 2.5px solid #fc7390;
+}
+
+
+.pass {
+	margin: 20px;
+}
+
+.form input[type="password"] {
+	border-radius: 2px;
+	margin:0 auto;
+	height: 20px;
+	width: 300px;
+	padding: 8px;
+}
+
+.form input[type="password"]:focus {
+	outline: none;
+	border: 2.5px solid #fc7390;
+}
+
+.noaccount {
+	margin-top: 3rem;
+	text-align: center;
+	color: rgb(97, 95, 95);
+}
+
+.noaccount :hover {
+	color: rgb(253, 82, 82);
+}
+
+.noaccount a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+
+.forget {
+	text-align: center;
+	color: rgb(97, 95, 95);
+}
+
+.forget:hover {
+	color: rgb(253, 82, 82);
+}
+
+.signup {
+	margin-top: -1rem;
+	margin-left: 5rem;
+}
+
+input[type="submit"]{
+	-webkit-appearance: button;
+	display: inline-block;
+	border-radius: 90px;
+	height: 30px;
+	width: 300px;
+	margin: 30px 70px 10px 20px; 
+	font-size: 20px;
+	background-color: rgb(243, 61, 61);
+	color: white;
+	box-shadow: 0 1px 0 1px;
+}
+
+input[type="submit"]:focus{
+	outline: none;
+	opacity: 0.9;
+}
+
+input[type="submit"]:hover{
+	-webkit-appearance: button;
+	opacity: 0.9;
+}
+

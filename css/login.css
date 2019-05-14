@@ -1,0 +1,125 @@
+body{
+	width: 100%;
+	background-color:rgb(240, 77, 77);
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+}
+
+
+
+/*menu*/
+.menu {
+	border: 1px solid white;
+	background-color: white;
+	font-size: 18px;
+	color: red;
+	/*width: 100%;*/
+	overflow: auto;
+	margin-right: 20px;
+}
+
+.menu ul{
+	list-style: none;
+	margin-right: 40px;
+	float:right;
+}
+
+.menu li{
+	display: inline-block;
+	margin-right: 30px;
+	cursor: pointer;
+	border-bottom:1px solid red;
+	color: rgba(255,0,0,1.0);
+}
+
+
+
+/*.menu li a:link*/
+.menu li a:visited{
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+	color: rgba(255,0,0,1.0);
+}
+
+.menu li a:hover
+/*.menu li a:active*/{
+	border-bottom: 2px solid orange;
+}
+
+
+/*form*/
+
+.form{
+	margin: 0 auto;
+	width: 50%;
+	background-color: #fcfaf7;
+	border-radius: 20px;
+	height: 320px;
+}
+
+.form h2{
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.forminside {
+	font-size: 20px;
+	margin: 30px 20px 10px 150px; 
+	width: 400px;
+}
+
+
+
+.form input[type="password"] {
+	border: 3px solid orange;
+	border-radius: 5px;
+	margin:0 auto;
+	height: 20px;
+	width: 300px;
+}
+
+.form input[type="email"]{
+	border: 3px solid orange;
+	border-radius: 5px;
+	margin: 0 auto;
+	height: 20px;
+	width: 300px;
+}
+
+
+/*.password{
+	font-size: 20px;
+	margin-left: 40px;
+	width: 400px;
+}
+
+.email{
+	font-size: 20px;
+	margin: 0 auto;
+	width: 400px;
+}*/
+
+input[type="submit"]{
+	-webkit-appearance: button;
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	margin: 50px 70px 10px 20px; 
+	font-size: 20px;
+	border: 3px solid orange;
+	border-radius: 5px;
+	background-color: #ffcb60;
+	color: black;
+	box-shadow: 0 1px 0 1px;
+}
+
+
+input[type="submit"]:hover,
+input[type="submit"]:hover{
+	transform: scale(1.1);
+}

@@ -1,0 +1,36 @@
+.body {
+    background-image: url("../img/achievement-adult-agreement-1061583.jpg");
+    background-size: cover;
+    height: 730px;
+    margin: -55px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-top: 80px;
+    font-size: 70px;
+}
+
+h2 {
+    color: white;
+}
+
+
+.body input[type="button"] {
+    -webkit-appearance: button;
+	height: 40px;
+	width: 200px;
+	background-color: orange;
+	box-shadow: 0 2px 0 2px;
+	cursor: pointer;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 30px;
+    margin: 80px;
+}
+
+.body input[type="button"]:hover{
+	border-bottom: 4px solid orange;
+	transform: scale(1.1);
+}

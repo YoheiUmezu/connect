@@ -1,0 +1,420 @@
+body{
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+}
+
+/*header*/
+.header{
+	background-image: url(../img/cell-phone-close-up-contemporary-905873.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	height: 760px;
+	padding-top: 180px;
+	box-sizing: border-box;
+	margin-top: -60px;
+}
+
+.header h1{
+	color: rgba(255,0,0,1.0);
+	border: 1px solid white;
+	background-color: white;
+}
+
+
+
+.logo{
+	margin-left: 5px;
+}
+
+.header form{
+	text-align: center;
+	margin-top: 110px;
+	margin-bottom: 80px;
+}
+
+.header input[type=text]{
+	color: #757575;
+	height: 40px;
+	width: 460px;
+	border-radius: 20px;
+	border: 2px solid #ffbc99;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0 2px 0 2px;
+
+}
+/*
+.header input[type=button]{
+	color: #ff5900;
+	height: 40px;
+	width: 60px;
+	cursor: pointer;
+}
+*/
+
+.header img{
+	margin-top: -450px;
+}
+
+.header input[type=image]{
+	cursor: pointer;
+	position: relative;
+	top: 10px;
+}
+
+.message{
+	font-size: 28px;
+	margin-top: 80px;
+	color: red;
+}
+
+/*menu*/
+.menu {
+	border: 1px solid white;
+	background-color: white;
+	opacity: 0.8;
+	height: 30px;
+	float: right;
+	margin-top: -460px;
+	font-size: 18px;
+	color: red;
+	overflow: auto;
+	box-sizing: border-box;
+	padding-top: 24px;
+}
+
+.menu ul{
+	/*list-style: none;*/
+	margin-right: 20px;
+	margin-left: -10px;
+	margin-top: -25px;
+	margin-bottom: -30px;
+}
+
+.menu li{
+	display: inline-block;
+	margin-right: 30px;
+	cursor: pointer;
+	color: rgba(255,0,0,1.0);
+}
+
+.menu li a:link,
+.menu li a:visited{
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+	color:rgba(255,0,0,1.0);
+}
+
+.menu li a:hover,
+.menu li a:active{
+	border-bottom: 2px solid red;
+}
+
+.message{
+	margin-top: 150px;
+	text-align: center;
+}
+
+/*container*/
+
+.container{
+	background-color: #ffe0a2;
+	height: 700px;
+	margin-top: -45px;
+}
+
+.msg {
+	text-align: center;
+	float: right;
+	margin-top: 70px;
+	margin-right: 40px;
+}
+
+.intro {
+	line-height: 2.0;
+}
+
+.container img {
+	margin-left: 40px;
+	margin-top: 100px;
+}
+
+
+
+/*body1*/
+
+.body1{
+	margin-top: -40px;
+	background-color: #ffcb60;
+	text-align: center;
+	height: 700px;
+	box-sizing: border-box;
+}
+
+.body1 h1{
+	padding-top: -20px;
+}
+/*
+.body1 img{
+	float: left;
+	margin: 100px 120px 150px 160px;
+}
+*/
+.body1 h2{
+	float: left;
+	margin: 130px 120px ;
+}
+
+.intro {
+	float: left;
+	font-size: 25px;
+}
+
+.intro img{
+	margin-top: -5px;
+}
+
+.introparagrah{
+	margin-top: 60px;
+}
+
+.introparagrah img{
+	margin-top: -60px;
+	margin-left: -90px;
+}
+
+.introparagrah ul{
+	list-style: none;
+	float: right;
+	margin-right: 150px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+.introparagrah li{
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+/*body4*/
+
+.step{
+	margin-top: -30px;
+	background-color: #fcfaf7;
+	text-align: center;
+	height: 700px;
+	box-sizing: border-box;
+}
+
+
+.step ul {
+	list-style: none;
+}
+
+.step li{
+	display: inline-block;
+	margin: 40px;
+}
+
+.step h2{
+	border-radius: 10px;
+	width: 20%;
+	margin: 0 auto;
+	background-color: orange;
+	box-shadow: 0 2px 0 2px;
+	cursor: pointer;
+}
+
+/*body2*/
+
+
+.body2 h1{
+	padding-top: -20px;
+}
+
+.body2 img{
+	float: left;
+	margin: 100px 120px 150px 160px;
+}
+
+.body2 h2{
+	float: left;
+	margin: 130px 120px ;
+}
+
+.intro2{
+	float: left;
+	width: 55%;
+	overflow: auto;
+	margin-top: 35px;
+}
+
+.intro2 img{
+	width: 100%;
+	margin-left: 60px;
+}
+
+.introparagrah2{
+	/*margin-top: 30px;
+	font-size: 20px;*/
+	float: left;
+	width: 30%;
+	font-size: 25px;
+	margin-left: 120px;
+	margin-top: 35px;
+}
+
+
+.introparagrah2 ul{
+	list-style: none;
+}
+
+.introparagrah2 li{
+	margin-top: 80px;
+	font-size: 35px;
+}
+
+/*step2*/
+
+.step2{
+	margin-top: -30px;
+	background-color: #f2f2f7;
+	text-align: center;
+	height: 700px;
+	box-sizing: border-box;
+}
+
+
+.step2 ul {
+	list-style: none;
+}
+
+.step2 li{
+	display: inline-block;
+	margin: 40px;
+}
+
+
+.step2 h2{
+	border-radius: 10px;
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: orange;
+	box-shadow: 0 2px 0 2px;
+	cursor: pointer;
+	color: black;
+}
+
+.step2 h2 a:link,
+.step2 h2 a:visited{
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+	color:rgba(255,0,0,1.0);
+} 
+
+
+.postnow input[type="button"]:hover{
+	border-bottom: 4px solid orange;
+	transform: scale(1.1);
+}
+
+
+
+/*sign up*/
+
+.signup{
+	margin-top: -30px;
+	background-color: #ffeee6;
+	text-align: center;
+	height: 700px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+
+.signup ul{
+	list-style: none;
+}
+
+.signup li{
+	margin: 0 auto;
+	margin-top: 40px;
+	border: 2px solid white;
+	border-radius: 40px;
+	width: 30%;
+}
+
+.signup1{
+	margin-top: 130px;
+	margin-bottom: 140px; 
+}
+
+.use{
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.signup1 li{
+	background-color: orange;
+	box-shadow: 0 2px 0 2px;
+	cursor: pointer;
+	height: 65px;
+}
+
+.signup input[type="button"],
+input[type="button"]{
+	-webkit-appearance: button;
+	height: 40px;
+	width: 300px;
+	background-color: orange;
+	box-shadow: 0 2px 0 2px;
+	cursor: pointer;
+	height: 65px;
+	border-radius: 20px;
+	font-size: 30px;
+	margin: 20px;
+}
+
+
+
+input[type="button"]:hover{
+	border-bottom: 4px solid orange;
+	transform: scale(1.1);
+}
+
+input[type="reset"]:hover{
+	border-bottom: 2px solid orange;
+}
+
+/* Animation*/
+
+.jp--wp-1{
+    opacity: 0;
+    transition: .7s;
+    margin-top: 60px;
+}
+
+.js--wp-1 .animated{
+    opacity: 1;
+    opacity: 1;
+    margin-top: 0;
+}
+

@@ -1,0 +1,537 @@
+h4 {
+    color: rgb(238, 195, 195);
+}
+
+body {
+    background-color: white;
+}
+
+
+
+.head a {
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 50px;
+    letter-spacing: 1px;
+    background-color: #ffeee6;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*head*/
+
+.head {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    z-index: 1800;
+    height: 63px;
+}
+
+.head img {
+    margin-top: 10px;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.userlogin {
+    text-align: center;
+    color: white;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 6rem;
+    background-color: rgb(240, 77, 77);
+    height: 1.8rem;
+    border-radius: 30px;
+}
+
+.head ul {
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+    margin-top: -1rem;
+    margin-left: 20rem;
+}
+
+.head li {
+   margin: 2rem 2rem -1rem 0;
+   padding: 0.3rem;
+   height: 25px;
+   background-color:rgb(240, 77, 77);
+   border-radius: 40px;
+}
+
+.head a {
+    color: white;
+}
+
+/*popup*/
+
+#popup {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup:target,
+.popup__content {
+    opacity: 1;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popupcontent {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 35%;
+    background-color: white;
+    display: table;
+    opacity: 0;
+    transform: translate(-50%, -50%), scale(.25);
+    transition: all .1s .2s;
+    margin-top: -2rem;
+}
+
+.popupcontent h2 {
+    color: rgb(240, 77, 77);
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+}
+
+.popup__close {
+    float: right;
+    margin-top: 10px;
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(240, 77, 77);
+}
+
+.popup__close:visited {
+    color: rgb(32, 32, 32);
+    background-color: white;
+    position: absolute;
+    top: 2.5rem;
+    font-size: 6rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    line-height: 1;
+}
+
+.pop__close:hover {
+    color: grey;
+}
+
+.language ul {
+    display: inline-flex;
+    display: flex;
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+    list-style: none;
+}
+
+.language li {
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.language a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(240, 77, 77);
+}
+
+.language img {
+    margin-left: 1rem;
+}
+
+/*header*/
+
+.header{
+    color: red;
+    font-size: 40px;
+    height: 3rem;
+    padding-top: 8px;
+    z-index: 1500;
+    background-image: url(../img/agreement-arms-cellphone-1547467.jpg);
+    opacity: 0.8 rgba(22, 9, 204);
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 660px;
+    margin-top: -1rem;
+    opacity: 0.8;
+}
+
+.header h1 {
+    background-color: white;
+}
+
+.header img {
+    margin-top: 90rem;
+}
+
+.title {
+    padding-top: 14rem;
+}
+
+
+
+.header input[type=text]{
+    margin-left: 22rem;
+    margin-top: 3rem;
+	height: 40px;
+	width: 460px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #ffbc99;
+	font-size: 15px;
+	cursor: pointer;
+    box-shadow: 0 2px 0 2px;
+    z-index: 1000;
+}
+
+
+
+/*jump*/
+
+.jump {
+    margin-top: 40px;
+    width: 100%;
+    height: 3rem;
+    opacity: .9;
+}
+
+.jump a {
+    text-decoration: none;
+}
+
+.jump ul {
+    height: 2rem;
+    display: flex;
+    margin: 0.5rem;
+    font-size: 18px;
+}
+
+.jump li {
+    list-style: none;
+    margin: 1rem;
+    margin: 0 auto;
+ }
+
+ .jump li a:link,
+ .jump li a:visited{
+     font-size: 15px;
+     text-transform: uppercase;
+     background-color: rgb(240, 77, 77);
+     border-radius: 10px;
+     padding: 12px;
+     color: white;
+ }
+
+ /*sponsor*/
+
+.sponsorcompany {
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sponsor {
+    margin-top: -3rem;
+    height: 250px;
+}
+
+.sponser img {
+    margin: 2rem;
+}
+
+.sponsor ul {
+    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+}
+
+.sponsor li {
+    list-style: none;
+}
+
+/*container*/
+
+ .container {
+    background: linear-gradient(90deg,
+    white 0%,
+    rgb(235, 233, 233) 40%,
+    transparent),
+    url(../img/shibuyacrossing.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+    border-top: solid red 2px;
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center; 
+    padding: 5rem;
+ }
+
+ .msg {
+     margin-right: 29rem;
+     line-height: 40px;
+ }
+
+ .container img {
+     border-radius: 20px;
+ }
+
+ .pic1 {
+    margin-top: -30px;
+     
+ }
+
+ 
+ /*review*/
+
+ 
+ .review {
+    background: linear-gradient(105deg,
+    white 30%,
+    rgb(252, 241, 243) 40%,
+      transparent),
+      url(../img/toa-heftiba.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    height: 40rem;
+    
+ }
+
+.ask {
+    height: 1rem;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: -10rem;
+}
+
+ .ask2 {
+    font-family: 'Roboto', sans-serif;
+    margin: -5rem 3rem 3rem 3rem;
+ }
+
+ .msgintro1 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 43rem;
+    font-size: 21px;
+    margin-bottom: -3rem;
+    line-height: 30px;
+ }
+
+
+ .work {
+     font-size: 40px;
+ }
+
+ .intro {
+     margin: 10rem;
+ }
+
+ .intro img {
+     border-radius: 30px;
+ }
+
+ .introparagrah img {
+     border-radius: 30px;
+ }
+
+ .introparagrah ul {
+     list-style: none;
+ }
+
+ .step1 {
+    background: radial-gradient(rgb(247, 183, 183), rgb(248, 204, 141) 2%, #F13F79);
+    text-align: center;
+    font-size: 14px;
+    width: 11rem;
+    height: 2.3rem;
+    padding-top: 1rem;
+    border-radius: 30px;
+    margin-top: 6rem;
+    margin-left: 10rem;
+}
+
+.step1 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ /*body2*/
+
+ .post {
+    background: linear-gradient(43deg,
+    white 0%,
+    white 50%,
+      transparent),
+      url(../img/achievement-adult-agreement-1061583.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 32rem;
+    display: flex;
+ }
+
+ .ask {
+     margin-bottom: -18rem;
+ }
+
+ .intro2 {
+     margin-right: 7rem;
+ }
+
+ .intro2 img {
+    border-radius: 30px;
+ }
+
+ .introparagrah2 {
+     font-size: 30px;
+     margin-left: 7rem;
+     list-style: none;
+     line-height: 30px;
+ }
+
+ .introparagrah2 ul {
+     list-style: none;
+ }
+
+ .ask2 {
+     padding-top: 9rem;
+     padding-left: 4rem;
+     margin-top: 20rem;
+ }
+
+.msgintro2 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10rem;
+    font-size: 20px;
+    
+}
+
+.step2 {
+    background: radial-gradient(rgb(247, 183, 183), rgb(248, 204, 141) 2%, #F13F79);
+    text-align: center;
+    font-size: 14px;
+    width: 11rem;
+    height: 2.3rem;
+    padding-top: 1rem;
+    border-radius: 30px;
+    margin-top: 6rem;
+    margin-left: 24rem;
+}
+
+.step2 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*footer*/
+
+.signup {
+    height: 9rem;
+}
+
+.step4 {
+    background: rgb(202, 201, 201);
+    text-align: center;
+    font-size: 14px;
+    width: 11rem;
+    height: 2.3rem;
+    padding-top: 1rem;
+    border-radius: 30px;
+    margin-top: -2rem;
+    margin-left: 85rem;
+}
+
+.use {
+    text-align: center;
+    padding-top: 1rem;
+    opacity: .9;
+    background-color: rgb(240, 77, 77);
+    color: white;
+    font-size: 23px;
+    height: 3.2rem;
+}
+
+.use a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240, 239, 239);
+    opacity: .9;
+    border-radius: 4px;
+}
+
+.register ul {
+    display: flex;
+    margin-left: 18rem;
+    margin-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.register li {
+    background-color: rgba(59、89、152);
+    list-style: none;
+    margin-left: 3rem;
+    z-index: 2000;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    opacity: .9;
+    height: 4rem;
+    background-color: rgb(228, 44, 44);
+    padding-top: 2rem;
+    font-size: 18px;
+}
+
+
+/*animation*/
+
+.jp--wp-1{
+    opacity: 0;
+    transition: .7s;
+    margin-top: 60px;
+}
+
+.js--wp-1 .animated{
+    opacity: 1;
+    opacity: 1;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
